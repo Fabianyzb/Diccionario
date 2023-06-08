@@ -103,7 +103,7 @@ body {
 
 .wrapper.active ul{
   height: 303px;
-  opacity: 1;
+  opacity: 1;  
 }
 
 .wrapper ul li {
@@ -136,6 +136,15 @@ ul .word i {
   font-size: 15px;
   color: #999;
 } 
+
+ul .content{
+  max-height: 215px;
+  overflow-y: auto;
+}
+
+ul .content::-webkit-scrollbar{
+  width: 0px;
+}
 
 .content li .details {
   padding-left: 12px;
